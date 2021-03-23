@@ -6,10 +6,14 @@ var computerDiceInput = Math.floor(Math.random() * 6) + 1;
 console.log("User dice input: " + userDiceInput);
 console.log("Computer dice input: " + computerDiceInput);
 
+var resultMessage;
+
 if (userDiceInput == computerDiceInput) {
-  alert("Nessuno ha vinto");
+  resultMessage = "Nessuno ha vinto";
 } else if (userDiceInput < computerDiceInput) {
-  alert("Il computer ha vinto!");
+  resultMessage = "Il computer ha vinto!";
 } else {
-  alert("Hai vinto contro il computer!");
+  resultMessage = "Hai vinto contro il computer!";
 }
+
+alert(resultMessage);
