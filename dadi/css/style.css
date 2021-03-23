@@ -1,0 +1,23 @@
+/* ----------------------------------------- */
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------------- */
+/* FONTS */
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------- */
+/* HEADER */
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
